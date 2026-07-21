@@ -1,0 +1,17 @@
+# Never commit AWS credentials or keys
+*.pem
+*.key
+.aws/
+credentials
+*.tfstate
+*.tfstate.backup
+.terraform/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
